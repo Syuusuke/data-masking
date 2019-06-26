@@ -1,0 +1,23 @@
+{
+  "name": "data-masking",
+  "version": "1.0.0",
+  "description": "a package for data masking",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syuusuke/data-masking.git"
+  },
+  "keywords": [
+    "node",
+    "masking"
+  ],
+  "author": "Hosea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syuusuke/data-masking/issues"
+  },
+  "homepage": "https://github.com/Syuusuke/data-masking#readme"
+}
