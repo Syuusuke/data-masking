@@ -1,6 +1,3 @@
-/**
- * @return {string}
- */
 function masking(str, beginLen, endLen, replaceStr = '*') {
   const firstStr = str.slice(0, beginLen);
   const middleStr = str.slice(beginLen, endLen).replace(/[\s\S]/ig, replaceStr);

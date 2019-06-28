@@ -13,6 +13,12 @@ describe('index.js', () => {
       const res = masking('17673040926', -1, 11);
       assert.equal(res, '1767304092*');
     });
+
+    it('should 176####0926', () => {
+      const res = masking('17673040926', 3, 7, '#');
+      assert.equal(res, '176####0926');
+    });
+
   });
 
   describe('#show()', () => {
@@ -31,5 +37,9 @@ describe('index.js', () => {
       assert.equal(res, '张##');
     });
 
+    it('should 张##', () => {
+      const res = show('张三丰', 1);
+      assert.equal(res, '*三丰');
+    });
   });
 });
