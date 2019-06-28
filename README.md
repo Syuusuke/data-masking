@@ -9,8 +9,6 @@ $ npm install data-mask
 
 # Usage
 
- **Use it by using DataMasker instance with plain text:**
-
 ```javascript
 /**
  * options parameter is optional in the constructor.
@@ -27,6 +25,7 @@ show('张三丰', 0, 1); // 张**
 show('张三丰', -1); // **丰
 show('张三丰', 0, 1, '#'); // 张##
 
+```
 
 
 # License
