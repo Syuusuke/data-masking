@@ -1,6 +1,6 @@
 {
   "name": "data-masking",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "a package for data masking",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,8 @@
   "homepage": "https://github.com/Syuusuke/data-masking#readme",
   "devDependencies": {
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.18.0"
-  },
-  "dependencies": {
+    "eslint-plugin-import": "^2.18.0",
     "mocha": "^6.1.4"
-  }
+  },
+  "dependencies": {}
 }
